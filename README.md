@@ -35,18 +35,19 @@ npx cypress run
 Folder Structure:
 
 Openferry-project/ 
-```│── cypress/```
-```│   ├── e2e/                # Test cases```
-```│   │   ├── UI/```            
-```│   ├── support/            # Custom commands```
-```│   ├── fixtures/           # Test data```
-```│   ├── downloads/          # Downloaded files```
-```├── cypress.config.ts       # Cypress configuration file```
-```├── package.json            # Dependencies and scripts```
-```├── package-lock.json       # Lock file for dependencies```
-```├── tsconfig.json           # TypeScript configuration```
-```├── README.md               # Project documentation```
-```├── .gitignore              # Files to exclude from Git```
+```│── cypress/
+│   ├── e2e/                # Test cases
+│   │   ├── UI/             
+│   ├── support/            # Custom commands
+│   ├── fixtures/           # Test data
+│   ├── downloads/          # Downloaded files
+├── cypress.config.ts       # Cypress configuration file
+├── package.json            # Dependencies and scripts
+├── package-lock.json       # Lock file for dependencies
+├── tsconfig.json           # TypeScript configuration
+├── README.md               # Project documentation
+├── .gitignore              # Files to exclude from Git
+```
 
 
 If I had extra time: 
