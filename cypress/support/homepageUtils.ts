@@ -24,7 +24,7 @@ export const homepageSelectors = {
   export const acceptCookies = () => {
     cy.get(homepageSelectors.acceptButton).then(($btns: JQuery<HTMLButtonElement>) => {
       if ($btns.length > 0) {
-        cy.wrap($btns.first()).click(); // Click the first visible accept button
+        cy.wrap($btns.first()).click(); // Clicks the first visible accept button
       }
     });
   };

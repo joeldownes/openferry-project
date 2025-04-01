@@ -10,14 +10,13 @@ describe('Ferry Ticket Search Tests', () => {
       acceptCookies();
   });
 
-  it('Searches for a ferry from Dover to Calais with P&O Ferries', () => {
+  it('Searches for a ferry from Dover to Calais with P&O Ferries and confirms the route on the ticket page', () => {
     searchAndSelectRoute('Dover', 'Calais');
     selectFerry('P&O Ferries');
     verifySelectedRoute('Dover', 'Calais');
-
   });
 
-  it('Searches for a ferry from Calais to Dover with DFDS Seaways Ferries', () => {
+  it('Searches for a ferry from Calais to Dover with DFDS Seaways Ferries and confirms the route on the ticket page', () => {
     searchAndSelectRoute('Calais', 'Dover');
     selectFerry('DFDS Seaways');
     verifySelectedRoute('Calais', 'Dover');
