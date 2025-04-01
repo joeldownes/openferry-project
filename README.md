@@ -33,9 +33,9 @@ npx cypress run
 
 
 Folder Structure:
-
+```
 Openferry-project/ 
-```│── cypress/
+│── cypress/
 │   ├── e2e/                # Test cases
 │   │   ├── UI/             
 │   ├── support/            # Custom commands
